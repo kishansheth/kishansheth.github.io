@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "69ab2827629b34838e37374360bc8d40",
-    "url": "/react-gh-pages/static/media/white_instagram.69ab2827.svg"
+    "revision": "c0c4a33786b0278c385d0f647b57490f",
+    "url": "/react-gh-pages/static/media/RobotoMono-Bold.c0c4a337.ttf"
   },
   {
     "revision": "bda452f3ec7cde813b1e",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/react-gh-pages/static/media/RobotoMono-Thin.b93c2ad4.ttf"
   },
   {
-    "revision": "5a45b286f59824f5d3b2d761871ced29",
-    "url": "/react-gh-pages/static/media/RobotoMono-Medium.5a45b286.ttf"
-  },
-  {
     "revision": "b82d827ba127c43e9272942682b88dc3",
     "url": "/react-gh-pages/static/media/RobotoMono-Light.b82d827b.ttf"
   },
@@ -36,8 +32,12 @@ self.__precacheManifest = [
     "url": "/react-gh-pages/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
-    "revision": "c0c4a33786b0278c385d0f647b57490f",
-    "url": "/react-gh-pages/static/media/RobotoMono-Bold.c0c4a337.ttf"
+    "revision": "5a45b286f59824f5d3b2d761871ced29",
+    "url": "/react-gh-pages/static/media/RobotoMono-Medium.5a45b286.ttf"
+  },
+  {
+    "revision": "69ab2827629b34838e37374360bc8d40",
+    "url": "/react-gh-pages/static/media/white_instagram.69ab2827.svg"
   },
   {
     "revision": "bda452f3ec7cde813b1e",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/react-gh-pages/static/media/white_linkedin.4d574a15.svg"
   },
   {
-    "revision": "db52d8d279d869dafe79e2164bd0e2ca",
-    "url": "/react-gh-pages/static/media/black_vsco.db52d8d2.svg"
-  },
-  {
     "revision": "3a8a9f358e1756cc896291b820921107",
     "url": "/react-gh-pages/static/media/black_instagram.3a8a9f35.svg"
   },
   {
-    "revision": "025fd5690db6b6bb870d6868cbf00a13",
-    "url": "/react-gh-pages/static/media/black_linkedin.025fd569.svg"
+    "revision": "db52d8d279d869dafe79e2164bd0e2ca",
+    "url": "/react-gh-pages/static/media/black_vsco.db52d8d2.svg"
   },
   {
     "revision": "74efb98fbb84adee8c3bad29e0b9ea2b",
     "url": "/react-gh-pages/static/media/black_github.74efb98f.svg"
+  },
+  {
+    "revision": "025fd5690db6b6bb870d6868cbf00a13",
+    "url": "/react-gh-pages/static/media/black_linkedin.025fd569.svg"
   },
   {
     "revision": "142301adf4e0699237f9e11a77761d0d",

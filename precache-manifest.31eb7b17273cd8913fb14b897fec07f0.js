@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "69ab2827629b34838e37374360bc8d40",
-    "url": "/static/media/white_instagram.69ab2827.svg"
+    "revision": "c0c4a33786b0278c385d0f647b57490f",
+    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
   },
   {
-    "revision": "37f417342bb8eea1c733",
+    "revision": "c005ffb248e7f439214a",
     "url": "/static/css/main.f597ba81.chunk.css"
   },
   {
@@ -32,16 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
   },
   {
-    "revision": "c0c4a33786b0278c385d0f647b57490f",
-    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
+    "revision": "142301adf4e0699237f9e11a77761d0d",
+    "url": "/static/media/ArialBold.142301ad.ttf"
   },
   {
     "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
     "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
-    "revision": "37f417342bb8eea1c733",
-    "url": "/static/js/main.37f41734.chunk.js"
+    "revision": "c005ffb248e7f439214a",
+    "url": "/static/js/main.c005ffb2.chunk.js"
+  },
+  {
+    "revision": "69ab2827629b34838e37374360bc8d40",
+    "url": "/static/media/white_instagram.69ab2827.svg"
   },
   {
     "revision": "65014891e2e9e71a3fb77e09bb865d90",
@@ -52,16 +56,16 @@ self.__precacheManifest = [
     "url": "/static/media/white_github.cd6a82fd.svg"
   },
   {
+    "revision": "4d574a159014263236e9be12f28e6dfc",
+    "url": "/static/media/white_linkedin.4d574a15.svg"
+  },
+  {
     "revision": "3a8a9f358e1756cc896291b820921107",
     "url": "/static/media/black_instagram.3a8a9f35.svg"
   },
   {
     "revision": "db52d8d279d869dafe79e2164bd0e2ca",
     "url": "/static/media/black_vsco.db52d8d2.svg"
-  },
-  {
-    "revision": "4d574a159014263236e9be12f28e6dfc",
-    "url": "/static/media/white_linkedin.4d574a15.svg"
   },
   {
     "revision": "025fd5690db6b6bb870d6868cbf00a13",
@@ -72,15 +76,11 @@ self.__precacheManifest = [
     "url": "/static/media/black_github.74efb98f.svg"
   },
   {
-    "revision": "142301adf4e0699237f9e11a77761d0d",
-    "url": "/static/media/ArialBold.142301ad.ttf"
-  },
-  {
     "revision": "0e2caa187e2ec8c7c12609a606f700ca",
     "url": "/static/media/Cloud.0e2caa18.jpg"
   },
   {
-    "revision": "7746035e740251331f129a63264885f4",
+    "revision": "01f21259caec9801af16ee992e9494f7",
     "url": "/index.html"
   }
 ];

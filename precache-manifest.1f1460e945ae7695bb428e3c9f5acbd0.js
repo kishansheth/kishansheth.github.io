@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/white_instagram.69ab2827.svg"
   },
   {
-    "revision": "5102381ce5d1a9b19177",
+    "revision": "c7621e05ed3f8e6906c7",
     "url": "/static/css/main.10d6d84c.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/OratorStd.eabd5416.otf"
   },
   {
+    "revision": "b82d827ba127c43e9272942682b88dc3",
+    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
+  },
+  {
     "revision": "b93c2ad436ccb747ae415c1e865819a4",
     "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
   },
   {
     "revision": "5a45b286f59824f5d3b2d761871ced29",
     "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
-  },
-  {
-    "revision": "b82d827ba127c43e9272942682b88dc3",
-    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
   },
   {
     "revision": "c0c4a33786b0278c385d0f647b57490f",
@@ -40,36 +40,36 @@ self.__precacheManifest = [
     "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
-    "revision": "65014891e2e9e71a3fb77e09bb865d90",
-    "url": "/static/media/white_vsco.65014891.svg"
+    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
+    "url": "/static/media/white_github.cd6a82fd.svg"
   },
   {
-    "revision": "5102381ce5d1a9b19177",
-    "url": "/static/js/main.5102381c.chunk.js"
+    "revision": "c7621e05ed3f8e6906c7",
+    "url": "/static/js/main.c7621e05.chunk.js"
+  },
+  {
+    "revision": "65014891e2e9e71a3fb77e09bb865d90",
+    "url": "/static/media/white_vsco.65014891.svg"
   },
   {
     "revision": "4d574a159014263236e9be12f28e6dfc",
     "url": "/static/media/white_linkedin.4d574a15.svg"
   },
   {
-    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
-    "url": "/static/media/white_github.cd6a82fd.svg"
+    "revision": "3a8a9f358e1756cc896291b820921107",
+    "url": "/static/media/black_instagram.3a8a9f35.svg"
+  },
+  {
+    "revision": "db52d8d279d869dafe79e2164bd0e2ca",
+    "url": "/static/media/black_vsco.db52d8d2.svg"
   },
   {
     "revision": "025fd5690db6b6bb870d6868cbf00a13",
     "url": "/static/media/black_linkedin.025fd569.svg"
   },
   {
-    "revision": "3a8a9f358e1756cc896291b820921107",
-    "url": "/static/media/black_instagram.3a8a9f35.svg"
-  },
-  {
     "revision": "74efb98fbb84adee8c3bad29e0b9ea2b",
     "url": "/static/media/black_github.74efb98f.svg"
-  },
-  {
-    "revision": "db52d8d279d869dafe79e2164bd0e2ca",
-    "url": "/static/media/black_vsco.db52d8d2.svg"
   },
   {
     "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/Cloud.0e2caa18.jpg"
   },
   {
-    "revision": "e9401cea29f4bc4ddf118092ccc017bb",
+    "revision": "fa1843f53e9d3a3634d6389580ccc683",
     "url": "/index.html"
   }
 ];

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "69ab2827629b34838e37374360bc8d40",
-    "url": "/static/media/white_instagram.69ab2827.svg"
+    "revision": "142301adf4e0699237f9e11a77761d0d",
+    "url": "/static/media/ArialBold.142301ad.ttf"
   },
   {
-    "revision": "c7621e05ed3f8e6906c7",
-    "url": "/static/css/main.10d6d84c.chunk.css"
+    "revision": "73e95e7c617edf17ae7f",
+    "url": "/static/css/main.28509545.chunk.css"
   },
   {
     "revision": "1a5a4cba5426a5ec68f2",
@@ -20,36 +20,40 @@ self.__precacheManifest = [
     "url": "/static/media/OratorStd.eabd5416.otf"
   },
   {
-    "revision": "b82d827ba127c43e9272942682b88dc3",
-    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
-  },
-  {
     "revision": "b93c2ad436ccb747ae415c1e865819a4",
     "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
-  },
-  {
-    "revision": "5a45b286f59824f5d3b2d761871ced29",
-    "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
-  },
-  {
-    "revision": "c0c4a33786b0278c385d0f647b57490f",
-    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
   },
   {
     "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
     "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
-    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
-    "url": "/static/media/white_github.cd6a82fd.svg"
+    "revision": "b82d827ba127c43e9272942682b88dc3",
+    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
   },
   {
-    "revision": "c7621e05ed3f8e6906c7",
-    "url": "/static/js/main.c7621e05.chunk.js"
+    "revision": "c0c4a33786b0278c385d0f647b57490f",
+    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
+  },
+  {
+    "revision": "5a45b286f59824f5d3b2d761871ced29",
+    "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
+  },
+  {
+    "revision": "69ab2827629b34838e37374360bc8d40",
+    "url": "/static/media/white_instagram.69ab2827.svg"
+  },
+  {
+    "revision": "73e95e7c617edf17ae7f",
+    "url": "/static/js/main.73e95e7c.chunk.js"
   },
   {
     "revision": "65014891e2e9e71a3fb77e09bb865d90",
     "url": "/static/media/white_vsco.65014891.svg"
+  },
+  {
+    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
+    "url": "/static/media/white_github.cd6a82fd.svg"
   },
   {
     "revision": "4d574a159014263236e9be12f28e6dfc",
@@ -76,15 +80,11 @@ self.__precacheManifest = [
     "url": "/static/media/my-cursor.aefcd2c6.png"
   },
   {
-    "revision": "142301adf4e0699237f9e11a77761d0d",
-    "url": "/static/media/ArialBold.142301ad.ttf"
-  },
-  {
     "revision": "0e2caa187e2ec8c7c12609a606f700ca",
     "url": "/static/media/Cloud.0e2caa18.jpg"
   },
   {
-    "revision": "fa1843f53e9d3a3634d6389580ccc683",
+    "revision": "c8e884e3303e2dc4db6e61c2a2115d51",
     "url": "/index.html"
   }
 ];

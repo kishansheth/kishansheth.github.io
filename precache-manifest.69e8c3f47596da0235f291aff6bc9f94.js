@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "142301adf4e0699237f9e11a77761d0d",
-    "url": "/static/media/ArialBold.142301ad.ttf"
+    "revision": "65014891e2e9e71a3fb77e09bb865d90",
+    "url": "/static/media/white_vsco.65014891.svg"
   },
   {
-    "revision": "73e95e7c617edf17ae7f",
+    "revision": "d50e710a10c1a877fd73",
     "url": "/static/css/main.28509545.chunk.css"
   },
   {
@@ -16,6 +16,10 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
+    "url": "/static/media/my-cursor.aefcd2c6.png"
+  },
+  {
     "revision": "eabd541671bded795f5746f95a0ec120",
     "url": "/static/media/OratorStd.eabd5416.otf"
   },
@@ -24,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
   },
   {
-    "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
-    "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
-  },
-  {
     "revision": "b82d827ba127c43e9272942682b88dc3",
     "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
+  },
+  {
+    "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
+    "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
     "revision": "c0c4a33786b0278c385d0f647b57490f",
@@ -40,16 +44,12 @@ self.__precacheManifest = [
     "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
   },
   {
+    "revision": "d50e710a10c1a877fd73",
+    "url": "/static/js/main.d50e710a.chunk.js"
+  },
+  {
     "revision": "69ab2827629b34838e37374360bc8d40",
     "url": "/static/media/white_instagram.69ab2827.svg"
-  },
-  {
-    "revision": "73e95e7c617edf17ae7f",
-    "url": "/static/js/main.73e95e7c.chunk.js"
-  },
-  {
-    "revision": "65014891e2e9e71a3fb77e09bb865d90",
-    "url": "/static/media/white_vsco.65014891.svg"
   },
   {
     "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
@@ -68,23 +68,23 @@ self.__precacheManifest = [
     "url": "/static/media/black_vsco.db52d8d2.svg"
   },
   {
-    "revision": "025fd5690db6b6bb870d6868cbf00a13",
-    "url": "/static/media/black_linkedin.025fd569.svg"
-  },
-  {
     "revision": "74efb98fbb84adee8c3bad29e0b9ea2b",
     "url": "/static/media/black_github.74efb98f.svg"
   },
   {
-    "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
-    "url": "/static/media/my-cursor.aefcd2c6.png"
+    "revision": "025fd5690db6b6bb870d6868cbf00a13",
+    "url": "/static/media/black_linkedin.025fd569.svg"
+  },
+  {
+    "revision": "142301adf4e0699237f9e11a77761d0d",
+    "url": "/static/media/ArialBold.142301ad.ttf"
   },
   {
     "revision": "0e2caa187e2ec8c7c12609a606f700ca",
     "url": "/static/media/Cloud.0e2caa18.jpg"
   },
   {
-    "revision": "c8e884e3303e2dc4db6e61c2a2115d51",
+    "revision": "f33d2386cc9c0ebbe01cfbd2008c239a",
     "url": "/index.html"
   }
 ];

@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/black_github.74efb98f.svg"
   },
   {
-    "revision": "86944a21be32e5dc37e3",
-    "url": "/static/css/main.d2e53d8c.chunk.css"
+    "revision": "146eb6d8fd55564b866f",
+    "url": "/static/css/main.0220d24a.chunk.css"
   },
   {
-    "revision": "524a6e3aeddee9558abe",
-    "url": "/static/js/1.524a6e3a.chunk.js"
+    "revision": "b2ffa37d4da145ed5774",
+    "url": "/static/js/1.b2ffa37d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/OratorStd.eabd5416.otf"
   },
   {
-    "revision": "b82d827ba127c43e9272942682b88dc3",
-    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
-  },
-  {
     "revision": "b93c2ad436ccb747ae415c1e865819a4",
     "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
   },
   {
     "revision": "5a45b286f59824f5d3b2d761871ced29",
     "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
+  },
+  {
+    "revision": "b82d827ba127c43e9272942682b88dc3",
+    "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
   },
   {
     "revision": "c0c4a33786b0278c385d0f647b57490f",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/static/media/white_linkedin.4d574a15.svg"
   },
   {
-    "revision": "3a8a9f358e1756cc896291b820921107",
-    "url": "/static/media/black_instagram.3a8a9f35.svg"
-  },
-  {
     "revision": "db52d8d279d869dafe79e2164bd0e2ca",
     "url": "/static/media/black_vsco.db52d8d2.svg"
+  },
+  {
+    "revision": "3a8a9f358e1756cc896291b820921107",
+    "url": "/static/media/black_instagram.3a8a9f35.svg"
   },
   {
     "revision": "025fd5690db6b6bb870d6868cbf00a13",
     "url": "/static/media/black_linkedin.025fd569.svg"
   },
   {
-    "revision": "86944a21be32e5dc37e3",
-    "url": "/static/js/main.86944a21.chunk.js"
+    "revision": "146eb6d8fd55564b866f",
+    "url": "/static/js/main.146eb6d8.chunk.js"
   },
   {
     "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/Cloud.0e2caa18.jpg"
   },
   {
-    "revision": "3d1dacc4b64e4213c48261ca0fa958c0",
+    "revision": "8f71e4f3418a13a68e50cece9729b2dd",
     "url": "/index.html"
   }
 ];

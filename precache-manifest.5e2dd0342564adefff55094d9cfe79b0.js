@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/lr.328ed810.png"
   },
   {
-    "revision": "6d05c1ebaa21d48338dd",
-    "url": "/static/css/main.86a39612.chunk.css"
+    "revision": "681bdb947a5ce88dc792",
+    "url": "/static/css/main.760dfca9.chunk.css"
   },
   {
     "revision": "d8f828334e124f4fa5ce",
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "b93c2ad436ccb747ae415c1e865819a4",
-    "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
+    "revision": "eabd541671bded795f5746f95a0ec120",
+    "url": "/static/media/OratorStd.eabd5416.otf"
   },
   {
     "revision": "b82d827ba127c43e9272942682b88dc3",
     "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
   },
   {
-    "revision": "eabd541671bded795f5746f95a0ec120",
-    "url": "/static/media/OratorStd.eabd5416.otf"
+    "revision": "b93c2ad436ccb747ae415c1e865819a4",
+    "url": "/static/media/RobotoMono-Thin.b93c2ad4.ttf"
   },
   {
     "revision": "5a45b286f59824f5d3b2d761871ced29",
@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
   },
   {
-    "revision": "69ab2827629b34838e37374360bc8d40",
-    "url": "/static/media/white_instagram.69ab2827.svg"
-  },
-  {
     "revision": "65014891e2e9e71a3fb77e09bb865d90",
     "url": "/static/media/white_vsco.65014891.svg"
   },
   {
-    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
-    "url": "/static/media/white_github.cd6a82fd.svg"
+    "revision": "69ab2827629b34838e37374360bc8d40",
+    "url": "/static/media/white_instagram.69ab2827.svg"
   },
   {
     "revision": "4d574a159014263236e9be12f28e6dfc",
     "url": "/static/media/white_linkedin.4d574a15.svg"
+  },
+  {
+    "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
+    "url": "/static/media/white_github.cd6a82fd.svg"
   },
   {
     "revision": "3a8a9f358e1756cc896291b820921107",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/static/media/pp.3ca2df09.png"
   },
   {
-    "revision": "6d05c1ebaa21d48338dd",
-    "url": "/static/js/main.6d05c1eb.chunk.js"
+    "revision": "681bdb947a5ce88dc792",
+    "url": "/static/js/main.681bdb94.chunk.js"
   },
   {
     "revision": "cd98d2b1142806d74ed5bab7a96ce2d7",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/static/media/orbit1.2e03b569.svg"
   },
   {
-    "revision": "aa10c1610150d0300b9aac6bc6c97ce9",
+    "revision": "721fec69707971a3bb09c9c75a2adc44",
     "url": "/index.html"
   }
 ];

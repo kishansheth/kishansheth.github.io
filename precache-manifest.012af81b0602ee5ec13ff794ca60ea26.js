@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/xd.77aa5702.png"
   },
   {
-    "revision": "e7707c76f4a79642cf1f",
-    "url": "/static/css/main.ce9850e8.chunk.css"
+    "revision": "287a711c63be26a28894",
+    "url": "/static/css/main.ea82f5e5.chunk.css"
   },
   {
     "revision": "91db23d34122af55c837",
@@ -14,10 +14,6 @@ self.__precacheManifest = [
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
-  },
-  {
-    "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
-    "url": "/static/media/my-cursor.aefcd2c6.png"
   },
   {
     "revision": "eabd541671bded795f5746f95a0ec120",
@@ -36,14 +32,6 @@ self.__precacheManifest = [
     "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
   },
   {
-    "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
-    "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
-  },
-  {
-    "revision": "c0c4a33786b0278c385d0f647b57490f",
-    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
-  },
-  {
     "revision": "69ab2827629b34838e37374360bc8d40",
     "url": "/static/media/white_instagram.69ab2827.svg"
   },
@@ -52,8 +40,16 @@ self.__precacheManifest = [
     "url": "/static/media/white_vsco.65014891.svg"
   },
   {
+    "revision": "c99a3a4b4cb2cfec15f947d518dc0a00",
+    "url": "/static/media/FaceOutline-01.c99a3a4b.svg"
+  },
+  {
     "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
     "url": "/static/media/white_github.cd6a82fd.svg"
+  },
+  {
+    "revision": "c0c4a33786b0278c385d0f647b57490f",
+    "url": "/static/media/RobotoMono-Bold.c0c4a337.ttf"
   },
   {
     "revision": "4d574a159014263236e9be12f28e6dfc",
@@ -80,6 +76,10 @@ self.__precacheManifest = [
     "url": "/static/media/ArialBold.142301ad.ttf"
   },
   {
+    "revision": "aefcd2c6a25f074f48b6dc6c59bb6aa7",
+    "url": "/static/media/my-cursor.aefcd2c6.png"
+  },
+  {
     "revision": "7339df61f0c31793deca4903f4067652",
     "url": "/static/media/ps.7339df61.png"
   },
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/static/media/pr.ab826171.png"
   },
   {
-    "revision": "e7707c76f4a79642cf1f",
-    "url": "/static/js/main.e7707c76.chunk.js"
+    "revision": "287a711c63be26a28894",
+    "url": "/static/js/main.287a711c.chunk.js"
   },
   {
     "revision": "dc4d2eb101b8ba243436884c50a63003",
@@ -204,7 +204,7 @@ self.__precacheManifest = [
     "url": "/static/media/orbit2.13750268.svg"
   },
   {
-    "revision": "d61cb3d45e798d345e69e3a9be6a18e4",
+    "revision": "a1ab4286b2185cf6e0613d8a3e307f6a",
     "url": "/index.html"
   }
 ];

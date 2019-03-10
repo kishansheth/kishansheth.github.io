@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.6cc820a7.chunk.css",
-  "main.js": "/static/js/main.58020703.chunk.js",
-  "main.js.map": "/static/js/main.58020703.chunk.js.map",
-  "static/js/1.91db23d3.chunk.js": "/static/js/1.91db23d3.chunk.js",
-  "static/js/1.91db23d3.chunk.js.map": "/static/js/1.91db23d3.chunk.js.map",
+  "main.js": "/static/js/main.64a6d686.chunk.js",
+  "main.js.map": "/static/js/main.64a6d686.chunk.js.map",
+  "static/js/1.8fbddd4b.chunk.js": "/static/js/1.8fbddd4b.chunk.js",
+  "static/js/1.8fbddd4b.chunk.js.map": "/static/js/1.8fbddd4b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/nav_icon.svg": "/static/media/nav_icon.e9a89728.svg",
-  "static/media/styles.css": "/static/media/OratorStd.eabd5416.otf",
+  "static/media/styles.css": "/static/media/RobotoMono-Thin.b93c2ad4.ttf",
   "static/media/ps.png": "/static/media/ps.7339df61.png",
   "static/media/ai.png": "/static/media/ai.a6193a32.png",
   "static/media/pp.png": "/static/media/pp.3ca2df09.png",
@@ -40,6 +40,6 @@
   "static/media/orbit2.svg": "/static/media/orbit2.13750268.svg",
   "static/css/main.6cc820a7.chunk.css.map": "/static/css/main.6cc820a7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.35b831e36e2ae16c2a8a2f0c897c3d79.js": "/precache-manifest.35b831e36e2ae16c2a8a2f0c897c3d79.js",
+  "precache-manifest.dfe822c19bfef20030c54c48b5d6f34a.js": "/precache-manifest.dfe822c19bfef20030c54c48b5d6f34a.js",
   "service-worker.js": "/service-worker.js"
 }

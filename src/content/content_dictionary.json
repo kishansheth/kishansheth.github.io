@@ -1,116 +1,1363 @@
 {
-    "0" : {
-        "title" : "2016 election",
-        "date"  : "November 2016",
-        "category": "photo",
-        "short_description" : "A series of photos taken in New York, NY during the 2016 election",
-        "long_description" : "",
-        "main_image" : "https://i.imgur.com/0mlBHKP.png",
-        "main_subtitle" : "5th avenue on the night of the election",
-        "other_images" : [
-            {
-                "image" : "https://i.imgur.com/GDyEnpz.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/c0IDEZu.jpg",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/MFaSndc.jpg",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/eqvOSYb.jpg",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/3JkwQUg.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/yUQxwBS.jpg",
-                "subtitle" : "front of the march"
-            },
-            {
-                "image" : "https://i.imgur.com/UG0Q3d4.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/Ww3MyCY.png",
-                "subtitle" : "The Javits Center - where Clinton waited during the election"
-            },
-            {
-                "image" : "https://i.imgur.com/rlnNi0k.jpg",
-                "subtitle" : "Counterterroism measures in front of Trump Tower on election night"
-            },
-            {
-                "image" : "https://i.imgur.com/ctFbfpu.png",
-                "subtitle" : "Police redirecting protest"
-            },
-            {
-                "image" : "https://i.imgur.com/UWGnqES.png",
-                "subtitle" : "Trump's motorcade outside of Hilton Midtown"
-            },
-            {
-                "image" : "https://i.imgur.com/wVNVhoi.jpg",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/OlJPW7C.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/EHQ22ld.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/JFyghsN.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/04KiBdZ.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/5W5mI9z.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/Yo3kpFl.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/ZvEk6NP.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/DOqcYdo.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/3Bf6Jobr.png",
-                "subtitle" : ""
-            },
-            {
-                "image" : "https://i.imgur.com/ZjQCjuz.png",
-                "subtitle" : ""
-            }
-        ]
-    },
-    "1" : {
-        "title" : "Prisms",
-        "date"  : " 2016",
-        "category": "February 2016",
-        "short_description" : "Experimentation with prisms and light. No edits.",
-        "long_description" : "",
-        "main_image" : "https://i.imgur.com/0mlBHKP.png",
-        "main_subtitle" : "5th avenue on the night of the election",
-        "other_images" : [
-            {
-                "image" : "https://i.imgur.com/GDyEnpz.png",
-                "subtitle" : ""
-            }
-        ]
+  "0" : {
+    "title" : "2016 election",
+    "date" : "November, 2016",
+    "category" : "photo",
+    "subcategory" : "events",
+    "short_description" : "A series of photos taken in New York, NY during the 2016 election.",
+    "long_description" : "A series of photos taken in New York, NY during the 2016 election.",
+    "thumbnail" : "/images/photo/2016_election/2016_election1.png",
+    "main_image" : "/images/photo/2016_election/2016_election1.png",
+    "main_image_small" : "/images/photo/2016_election/2016_election1_small.png",
+    "main_subtitle" : "5th avenue on the night of the election",
+    "other_images" : [
+      {
+        "image" : "/images/photo/2016_election/2016_election2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election3.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election4.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election5.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election6.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election7.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election8.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election9.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election10.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election11.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election12.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election13.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election14.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election15.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election16.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election17.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election18.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election19.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election20.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election21.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election22.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/2016_election/2016_election23.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
     }
+  },
+  "1" : {
+    "title" : "Glass",
+    "date" : "February, 2017",
+    "category" : "photo",
+    "subcategory" : "experimental",
+    "short_description" : "Experimentation with prisms and light. No edits.",
+    "long_description" : "Experimentation with prisms and light. No edits.",
+    "thumbnail" : "/images/photo/prisms/prisms1.png",
+    "main_image" : "/images/photo/prisms/prisms1.png",
+    "main_image_small" : "/images/photo/prisms/prisms1_small.png",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/photo/prisms/prisms2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms3.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms4.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms5.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms6.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms7.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms8.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms9.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms10.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms11.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms12.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms13.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms14.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms15.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms16.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms17.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms18.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/prisms/prisms19.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "2" : {
+    "title" : "Cincinnati",
+    "date" : "June, 2016",
+    "category" : "photo",
+    "subcategory" : "cities",
+    "short_description" : "Shots from around Cincinnati, OH.",
+    "long_description" : "Shots from around Cincinnati, OH – my hometown.",
+    "thumbnail" : "/images/photo/city/cincinnati/cincinnati1.png",
+    "main_image" : "/images/photo/city/cincinnati/cincinnati1.png",
+    "main_image_small" : "/images/photo/city/cincinnati/cincinnati1_small.png",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati3.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati4.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati5.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati6.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati7.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati8.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati9.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati10.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati11.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati12.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati13.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati14.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati15.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati16.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati17.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati18.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/cincinnati/cincinnati19.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "3" : {
+    "title" : "Spectator Mobile App",
+    "date" : "March, 2017",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "App design for Columbia Spectator.",
+    "long_description" : "App design for Columbia Daily Spectator – Columbia University’s most popular student-run newspaper. User interface and user experience designs created as a member of Spectator’s Product Design team. Mockups created using Adobe Illustrator and Adobe Photoshop.",
+    "thumbnail" : "/images/ui_ux/spectator/spectator1.png",
+    "main_image" : "/images/ui_ux/spectator/spectator5.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/spectator/spectator2.png",
+        "subtitle" : "News - Access main news, opinion, sports, and media articles."
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator3.png",
+        "subtitle" : "Spectrum - Access articles from Spectator's blog, Spectrum."
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator4.png",
+        "subtitle" : "The Eye - Access articles from Columbia's multimedia magazine, The Eye."
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator6.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator7.png",
+        "subtitle" : "UI / UX annotations on Spectrum page"
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator8.png",
+        "subtitle" : "UI / UX annotations on Author page"
+      },
+      {
+        "image" : "/images/ui_ux/spectator/spectator9.png",
+        "subtitle" : "UX annotations on Lightbox"
+      }
+    ],
+    "tools" : [
+      "ai",
+      "ps"
+    ],
+    "link" : {
+      "name" : "the App Store",
+      "url" : "https://itunes.apple.com/us/app/columbia-daily-spectator/id1238427807?mt=8"
+    }
+  },
+  "4" : {
+    "title" : "Urbs Antiqua",
+    "date" : "January, 2017",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Created during my freshman year of college, when both high school Latin and awe of New York were on my mind. A Twist on Claude's \"View of Carthage with Dido and Aeneas\" – a painting featured on the front of Bantam's edition of the translated Aeneid.",
+    "thumbnail" : "/images/art_experimental/urbs_antiqua.png",
+    "main_image" : "/images/art_experimental/urbs_antiqua.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "5" : {
+    "title" : "Loud",
+    "date" : "February, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Created during period of boredom in class.",
+    "long_description" : "Created during period of boredom in class. Drawn, scanned, then vectorized and colorized on Illustrator.",
+    "thumbnail" : "/images/art_experimental/loud.png",
+    "main_image" : "/images/art_experimental/loud.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "6" : {
+    "title" : "Censored",
+    "date" : "April, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Face digitally recreated from Da Vinci's \"The Virgin and Child with St. Anne\".",
+    "thumbnail" : "/images/art_experimental/censored.png",
+    "main_image" : "/images/art_experimental/censored.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "7" : {
+    "title" : "Eclipse 2017",
+    "date" : "August, 2017",
+    "category" : "photo",
+    "subcategory" : "nature",
+    "short_description" : "",
+    "long_description" : "Photos taken of eclipse in Hopkinsville, KY – one of the most popular sites of totality. Taken with Nikon D5300, 55-300mm lens, and an 8-stop filter.",
+    "thumbnail" : "/images/photo/nature/eclipse/eclipse.png",
+    "main_image" : "/images/photo/nature/eclipse/eclipse.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "8" : {
+    "title" : "Math",
+    "date" : "July, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Drawn, scanned, then vectorized and colored on Illustrator.",
+    "thumbnail" : "/images/art_experimental/math.png",
+    "main_image" : "/images/art_experimental/math_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai",
+      "dr"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "9" : {
+    "title" : "De Docta Ignorantia",
+    "date" : "December, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Doodles were drawn, scanned, then vectorized and colored on Illustrator.",
+    "thumbnail" : "/images/art_experimental/de_docta_ignorantia.png",
+    "main_image" : "/images/art_experimental/de_docta_ignorantia_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ai",
+      "dr"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "10" : {
+    "title" : "21st Century Chain Gang",
+    "date" : "December, 2015",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Drawn, scanned, then vectorized on Illustrator. ",
+    "thumbnail" : "/images/art_experimental/21st_century_chain_gang.png",
+    "main_image" : "/images/art_experimental/21st_century_chain_gang.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai",
+      "dr"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "11" : {
+    "title" : "Big Brother",
+    "date" : "December, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "Created on Illustrator.",
+    "thumbnail" : "/images/art_experimental/big_brother.png",
+    "main_image" : "/images/art_experimental/big_brother.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ps",
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "12" : {
+    "title" : "RxPredict Mobile App",
+    "date" : "July, 2017",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "",
+    "long_description" : "User interface and user experience for RxPredict's mobile app – a health and fitness tracker. Mockups created using Adobe Illustrator, Adobe Experience Design, and Adobe Photoshop.",
+    "thumbnail" : "/images/ui_ux/rxpredict/rxpredict.png",
+    "main_image" : "/images/ui_ux/rxpredict/rxpredict.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/rxpredict/rxpredict1.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/ui_ux/rxpredict/rxpredict2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/ui_ux/rxpredict/rxpredict3.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/ui_ux/rxpredict/rxpredict4.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ai",
+      "ps",
+      "xd"
+    ],
+    "link" : {
+      "name" : "Adobe XD",
+      "url" : "https://xd.adobe.com/view/dbd3176c-dea3-46ce-bc6b-e7bebbd7ac18/"
+    }
+  },
+  "13" : {
+    "title" : "Kanine",
+    "date" : "January, 2016",
+    "category" : "promotional",
+    "subcategory" : "branding",
+    "short_description" : "",
+    "long_description" : "Branding and pitch material for Kanine – a concept company created for DECA 2016. Kanine is threat detection and broadcasting system intended to be implemented in active or recent combat zones with high civilian populations. Kanine manufactures portable explosive particulate detectors that alert both the immediate user, and other users on Kanine’s network, of nearby explosive devices, especially unexploded land mines. The app also alerts users of locations of active combat. ",
+    "thumbnail" : "/images/promotional/kanine/kanine.png",
+    "main_image" : "/images/promotional/kanine/kanine_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/promotional/kanine/kanine1.png",
+        "subtitle" : "Poster design for pitch presentation."
+      },
+      {
+        "image" : "/images/promotional/kanine/kanine2.png",
+        "subtitle" : "References pamphlet design for pitch presentation."
+      }
+    ],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "14" : {
+    "title" : "Epifya",
+    "date" : "July, 2015",
+    "category" : "promotional",
+    "subcategory" : "branding",
+    "short_description" : "",
+    "long_description" : "Branding and pitch material for Epifya – a student-run eLearning startup based in Menlo Park, CA. Epifya provides students with step-by-step solutions and explanations to questions from popular math and science textbooks.",
+    "thumbnail" : "/images/promotional/epifya/epifya.png",
+    "main_image" : "/images/promotional/epifya/epifya_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/promotional/epifya/epifya1.png",
+        "subtitle" : "Logo versions."
+      },
+      {
+        "image" : "/images/promotional/epifya/epifya2.png",
+        "subtitle" : "PowerPoint design for pitch presentation."
+      },
+      {
+        "image" : "/images/promotional/epifya/epifya3.png",
+        "subtitle" : "PowerPoint design for pitch presentation."
+      }
+    ],
+    "tools" : [
+      "ai",
+      "pp",
+      "ps"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "15" : {
+    "title" : "Chipotle Prom Fundraiser",
+    "date" : "April, 2015",
+    "category" : "promotional",
+    "subcategory" : "posters",
+    "short_description" : "",
+    "long_description" : "Banner design for prom and homecoming fundraiser at Chipotle. Drawn then vectorized in Adobe Illustrator. ",
+    "thumbnail" : "/images/promotional/posters/chipotle.png",
+    "main_image" : "/images/promotional/posters/chipotle_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai",
+      "dr"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "16" : {
+    "title" : "Mixtape Madness",
+    "date" : "May, 2015",
+    "category" : "promotional",
+    "subcategory" : "posters",
+    "short_description" : "",
+    "long_description" : "Banner design for Indian Hill High School’s annual music festival. The theme of the year was Mixtape Madness. Made in Adobe Illustrator. ",
+    "thumbnail" : "/images/promotional/posters/musicfest.png",
+    "main_image" : "/images/promotional/posters/musicfest_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "17" : {
+    "title" : "Prom 2015",
+    "date" : "May, 2015",
+    "category" : "promotional",
+    "subcategory" : "posters",
+    "short_description" : "",
+    "long_description" : "Poster design for Indian Hill High School’s 2015 prom. The theme of the year was Bright Lights, Big City. Made in Adobe Illustrator. ",
+    "thumbnail" : "/images/promotional/posters/prom.png",
+    "main_image" : "/images/promotional/posters/prom_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "18" : {
+    "title" : "INTERalliance by the Numbers",
+    "date" : "November, 2015",
+    "category" : "promotional",
+    "subcategory" : "posters",
+    "short_description" : "",
+    "long_description" : "Infographic poster for INTERalliance of Greater Cincinnati – a program that aims to keep tech talent in the greater Cincinnati area. Made in Adobe Illustrator. ",
+    "thumbnail" : "/images/promotional/posters/interalliance.png",
+    "main_image" : "/images/promotional/posters/interalliance_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "19" : {
+    "title" : "Grandchat Web App",
+    "date" : "November, 2018",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "Chat application that facilitates painless, interlingual communication between grandparents and their grandchildren.",
+    "long_description" : "Grandchat is a chat application that facilitates painless, interlingual communication between grandparents and their grandchildren. Users can type or speak a message in their native language and their message will be automatically translated to the language of the recipient. Created for CS 6998 (Advanced Web Design Studio) using Python (Flask), HTML, Jinja, SQL, and custom CSS. Wireframes created in Adobe Illustrator.",
+    "thumbnail" : "/images/ui_ux/grandchat/grandchat.png",
+    "main_image" : "/images/ui_ux/grandchat/grandchat_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat1.svg",
+        "subtitle" : "Grandchat landing page"
+      },
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat2.svg",
+        "subtitle" : "Login page for grandparents"
+      },
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat3.svg",
+        "subtitle" : "Login page for grandchildren"
+      },
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat4.svg",
+        "subtitle" : "Chat page for grandparents"
+      },
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat5.svg",
+        "subtitle" : "Chat page for grandchildren"
+      },
+      {
+        "image" : "/images/ui_ux/grandchat/grandchat6.svg",
+        "subtitle" : "Grandparent manager page"
+      }
+    ],
+    "tools" : [
+      "ai",
+      "ht",
+      "cs",
+      "py"
+    ],
+    "link" : {
+      "name" : "GitHub",
+      "url" : "https://github.com/kishansheth/grandchat"
+    }
+  },
+  "20" : {
+    "title" : "Coastal Reef Apparel",
+    "date" : "May, 2015",
+    "category" : "promotional",
+    "subcategory" : "shirts",
+    "short_description" : "Series of shirt designs for Cincinnati-based clothing brand, Coastal Reef Apparel. All designs created in Illustrator.",
+    "long_description" : "Series of shirt designs for Cincinnati-based clothing brand, Coastal Reef Apparel. All designs created in Illustrator.",
+    "thumbnail" : "/images/promotional/shirts/coastal_reef.png",
+    "main_image" : "/images/promotional/shirts/coastal_reef_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/promotional/shirts/coastal_reef1.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/promotional/shirts/coastal_reef2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/promotional/shirts/coastal_reef3.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "21" : {
+    "title" : "ELS Vancouver",
+    "date" : "July, 2018",
+    "category" : "promotional",
+    "subcategory" : "shirts",
+    "short_description" : "Shirt design for English Language Services, Vancouver. Vector art created in Adobe Illustrator.",
+    "long_description" : "Shirt design for English Language Services, Vancouver. Vector art created in Adobe Illustrator.",
+    "thumbnail" : "/images/promotional/shirts/els.png",
+    "main_image" : "/images/promotional/shirts/els_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "22" : {
+    "title" : "Powderpuff",
+    "date" : "September, 2015",
+    "category" : "promotional",
+    "subcategory" : "shirts",
+    "short_description" : "Shirt design for 2015 Junior vs. Senior Powderpuff football game at Indian Hill High School. Vector art created in Adobe Illustrator.",
+    "long_description" : "Shirt design for 2015 Junior vs. Senior Powderpuff football game at Indian Hill High School. Vector art created in Adobe Illustrator.",
+    "thumbnail" : "/images/promotional/shirts/powderpuff.png",
+    "main_image" : "/images/promotional/shirts/powderpuff_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "23" : {
+    "title" : "Global Leadership Summit",
+    "date" : "June, 2015",
+    "category" : "promotional",
+    "subcategory" : "shirts",
+    "short_description" : "Shirt design for 2015 Global Leadership Summit in Davos, Switzerland.",
+    "long_description" : "Shirt design for 2015 Global Leadership Summit in Davos, Switzerland. Students participating in the summit toured Amsterdam, Paris, and Geneva before attending the Summit in Davos. Created in Illustrator.",
+    "thumbnail" : "/images/promotional/shirts/europe.png",
+    "main_image" : "/images/promotional/shirts/europe_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/promotional/shirts/europe1.png",
+        "subtitle" : "Front and back designs"
+      }
+    ],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "24" : {
+    "title" : "Student Government",
+    "date" : "October, 2015",
+    "category" : "promotional",
+    "subcategory" : "shirts",
+    "short_description" : "Shirt design for 2015-2016 Student Government. Created in Illustrator.",
+    "long_description" : "Shirt design for 2015-2016 Student Government. Created in Illustrator.",
+    "thumbnail" : "/images/promotional/shirts/sg2015.png",
+    "main_image" : "/images/promotional/shirts/sg2015_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "25" : {
+    "title" : "Rapid Response",
+    "date" : "July, 2016",
+    "category" : "promotional",
+    "subcategory" : "branding",
+    "short_description" : "Branding for Rapid Response – an internal Supply Chain initiative at Procter & Gamble. Completed during 2016 summer internship at P&G. All content created in Adobe Illustrator and Microsoft PowerPoint.",
+    "long_description" : "Branding for Rapid Response – an internal Supply Chain initiative at Procter & Gamble. Completed during 2016 summer internship at P&G. All content created in Adobe Illustrator and Microsoft PowerPoint.",
+    "thumbnail" : "/images/promotional/rr/rr.png",
+    "main_image" : "/images/promotional/rr/rr.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/promotional/rr/rr1.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/promotional/rr/rr2.png",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/promotional/rr/rr3.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ai",
+      "pp"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "26" : {
+    "title" : "PV Snapchat Filter",
+    "date" : "July, 2015",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Snapchat filter made for Portola Valley, CA.",
+    "long_description" : "Snapchat filter made for Portola Valley, CA. Accepted and activated in August 2015. Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/filters/portola_filter.png",
+    "main_image" : "/images/art_experimental/filters/portola_filter_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "27" : {
+    "title" : "IH Snapchat Filter",
+    "date" : "June, 2015",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Snapchat filter made for Indian Hill, OH.",
+    "long_description" : "Snapchat filter made for Indian Hill, OH. Accepted and activated in July 2015. Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/filters/village_filter.png",
+    "main_image" : "/images/art_experimental/filters/village_filter_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "28" : {
+    "title" : "Shadowed Reputation",
+    "date" : "December, 2015",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Drawn, scanned, then vectorized on Illustrator.",
+    "long_description" : "“Don't let the villainy of a minority shadow the innocence of the majority.” Drawn, scanned, then vectorized on Illustrator.",
+    "thumbnail" : "/images/art_experimental/shadowed.png",
+    "main_image" : "/images/art_experimental/shadowed.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "29" : {
+    "title" : "Eudaimonia",
+    "date" : "June, 2015",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Drawn, scanned, then vectorized on Illustrator.",
+    "long_description" : "Drawn, scanned, then vectorized on Illustrator.",
+    "thumbnail" : "/images/art_experimental/happiness.png",
+    "main_image" : "/images/art_experimental/happiness.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "30" : {
+    "title" : "Devotion",
+    "date" : "June, 2017",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Created in Illustrator.",
+    "long_description" : "Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/religion.png",
+    "main_image" : "/images/art_experimental/religion.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "31" : {
+    "title" : "Intrusive",
+    "date" : "January, 2017",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Created in Illustrator.",
+    "long_description" : "Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/sonogram.png",
+    "main_image" : "/images/art_experimental/sonogram.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "32" : {
+    "title" : "New School",
+    "date" : "May, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "One of seven art pieces created for my high school senior project.",
+    "long_description" : "One of seven art pieces created for my high school senior project. Other project members include Rohit Musti, Essam Chaudhry, and Durham Colohan.",
+    "thumbnail" : "/images/art_experimental/pills.png",
+    "main_image" : "/images/art_experimental/pills_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ca",
+      "ps"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "33" : {
+    "title" : "Burdened",
+    "date" : "March, 2016",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Created in Illustrator.",
+    "long_description" : "Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/burdened.png",
+    "main_image" : "/images/art_experimental/burdened_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "34" : {
+    "title" : "life();",
+    "date" : "March, 2017",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Drawn, scanned, then vectorized on Illustrator. ",
+    "long_description" : "Drawn, scanned, then vectorized on Illustrator. ",
+    "thumbnail" : "/images/art_experimental/living.png",
+    "main_image" : "/images/art_experimental/living_main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [],
+    "tools" : [
+      "ai",
+      "dr"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "35" : {
+    "title" : "Mantis Shrimp",
+    "date" : "April, 2017",
+    "category" : "art / experimental",
+    "subcategory" : "",
+    "short_description" : "Created in Illustrator.",
+    "long_description" : "Created in Illustrator.",
+    "thumbnail" : "/images/art_experimental/mantis_shrimp.png",
+    "main_image" : "/images/art_experimental/mantis_shrimp.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/art_experimental/mantis_shrimp1.png",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ai",
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "36" : {
+    "title" : "Bay Area",
+    "date" : "2016-2018",
+    "category" : "photo",
+    "subcategory" : "cities",
+    "short_description" : "Shots from San Francisco, Berkeley, and Palo Alto. ",
+    "long_description" : "Shots from San Francisco, Berkeley, and Palo Alto. ",
+    "thumbnail" : "/images/photo/city/bay_area/bay_area_thumb.jpg",
+    "main_image" : "/images/photo/city/bay_area/bay_area1.jpg",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/photo/city/bay_area/bay_area2.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area3.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area4.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area5.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area6.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area7.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area8.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area9.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area10.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area11.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area12.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area13.jpg",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  },
+  "37" : {
+    "title" : "New York",
+    "date" : "2015-2019",
+    "category" : "photo",
+    "subcategory" : "cities",
+    "short_description" : "Shots from New York City.",
+    "long_description" : "Shots from New York City.",
+    "thumbnail" : "/images/photo/city/new_york/new_york23.jpg",
+    "main_image" : "/images/photo/city/new_york/new_york1.jpg",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/photo/city/new_york/new_york2.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york3.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york4.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york5.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york6.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york7.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york8.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york9.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york10.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york11.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york12.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york13.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york14.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york15.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york16.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york17.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york18.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york19.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york20.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york21.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york22.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york23.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york24.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york25.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york26.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york27.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york28.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york29.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york30.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york31.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york32.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york33.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york34.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york35.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york36.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york37.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york38.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york39.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york40.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/new_york/new_york41.jpg",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    }
+  }
 }

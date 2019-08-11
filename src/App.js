@@ -1,16 +1,22 @@
 import React from "react"
 import './styles/styles.css'
 import MediaQuery from 'react-responsive'
+import Nav from './frame/header/nav/Nav'
 import BarNav from './frame/header/nav/BarNav'
 import BurgerNav from './frame/header/nav/BurgerNav'
 import Content_Items from './content/content_items.json'
 import Content_Dictionary from './content/content_dictionary.json'
 import Carousel from './content/Carousel'
+import TickerDiv from './content/TickerDiv'
 import Content from './content/Content'
 import Footer from './frame/footer/Footer.js'
 import Links from './content/Links'
-import Project from './content/Project'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import AboutPage from './pages/about/AboutPage'
+import ProjectPage from './content/ProjectPage'
+import MapPage from './pages/about/MapPage'
+import BottomBanner from './content/BottomBanner'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { HashRouter } from 'react-router-dom'
 
 // pages
 import Gallery from './pages/gallery.js'
@@ -18,14 +24,14 @@ import Gallery from './pages/gallery.js'
 export default class App extends React.Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div>
           <Route path="/" component={Index} exact />
           <Route path="/gallery" component={Gallery} />
           <Route path="/about" component={About} />
           <Route path="/projects/:id" component={ProjectRouter}/>
         </div>
-      </Router>
+      </HashRouter>
     )
   }
 }
@@ -35,8 +41,8 @@ class Index extends React.Component {
   render() {
 		return (
 			<div>
-				<BarNav />
-				<Carousel />
+				<Nav />
+				<TickerDiv />
 				<Content />
 				<Links />
 				<Footer />
@@ -49,7 +55,8 @@ class About extends React.Component {
   render() {
 		return (
 			<div>
-				About
+				<Nav />
+        <AboutPage />
   		</div>
 		)
 	}
@@ -58,20 +65,21 @@ class About extends React.Component {
 class ProjectRouter extends React.Component {
   constructor(props) {
     super(props);
+    const { id } = props.match.params
     this.state = {
-      projectId : 0
+      projectId : id
     }
   }
 
   componentDidMount() {
-    const { id } = this.props.match.params
-    this.setState({projectId: id})
+    // const { id } = this.props.match.params
+    // this.setState({projectId: id})
   }
 
   render() {
     return (
 			<div>
-        <Project id={this.state.projectId} />
+        <ProjectPage id={this.state.projectId} />
   		</div>
 		)
 	}

@@ -9,6 +9,7 @@ import Content from '../content/Content'
 import Headroom from 'react-headroom'
 import Footer from '../frame/footer/Footer.js'
 import Links from '../content/Links'
+import BottomBanner from '../content/BottomBanner'
 
 export default class Home extends React.Component {
 	render() {
@@ -18,7 +19,6 @@ export default class Home extends React.Component {
 				<Carousel />
 				<Content />
 				<Links />
-				<Footer />
   			</div>
 		)
 	}

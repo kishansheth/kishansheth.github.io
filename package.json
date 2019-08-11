@@ -2,14 +2,19 @@
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kishansheth.github.io/react-gh-pages",
+  "homepage": "https://kishansheth.github.io",
   "dependencies": {
+    "node-vibrant": "^3.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-lazy-blur": "^1.0.16",
     "react-responsive": "^5.0.0",
+    "react-reveal": "^1.2.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.3"
+    "react-scripts": "2.0.3",
+    "react-ticker": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,10 +1,37 @@
 import React from 'react';
 import '../styles/styles.css';
 import Content_Items from './content_items.json';
+import Content_Dictionary from './content_dictionary.json';
 import ContentHeader from './ContentHeader';
 import OpenButton from '../styles/buttons/OpenButton';
 import MediaQuery from 'react-responsive';
 import Link from 'react-router-dom/Link';
+import Fade from 'react-reveal/Fade';
+
+function orderDict(unordered) {
+    var ordered = {};
+  
+    // Convert JSON dict to array of objects
+    var project_objects = Object.keys(unordered).map(function(key) {
+        return [key, Content_Dictionary[key].date];
+    });
+    console.log(project_objects);
+    
+    // Sort the array based on the second element
+    project_objects.sort(function(first, second) {
+        return new Date(second[1]) - new Date(first[1]);
+    });
+    console.log("project_object: ", project_objects);
+  
+    // Create new array with ordered objects
+    var i;
+    for (i = 0; i < project_objects.length; i++) {
+        ordered[i.toString()] = unordered[project_objects[i][0]];
+    }
+    console.log(ordered);
+    
+    return ordered;
+  }
 
 class Content_Item extends React.Component {
     constructor(props) {
@@ -24,8 +51,8 @@ class Content_Item extends React.Component {
                 <div className="contentBox" onClick={this.userClick}> 
                     <div className="category">{this.props.category}</div>
                     <div className="title">{this.props.title}</div>
-                    <img className="contentImage" src={this.props.image} />
-                    <div className="description">{this.props.description}</div>
+                    <img className="contentImage" src={this.props.thumbnail} />
+                    {/* <div className="description">{this.props.description}</div> */}
                     <MediaQuery maxWidth={599}>
                         <div>
                             {this.state.clicked ? <OpenButton linkTo="http://www.google.com"/> : null}
@@ -43,18 +70,26 @@ export default class Content extends React.Component {
             <div>
                 <ContentHeader title="recent"/>
                 <div className="contentContainer">
-                    {Content_Items.map((content_detail, index)=>{
+                    {Object.values(orderDict(Content_Dictionary)).map((content_detail, index)=>{
+                        if (index < 6) {
                             return (
-                                <Content_Item 
-                                    index={index}
-                                    date={content_detail.date} 
-                                    title={content_detail.title} 
-                                    category={content_detail.category}
-                                    image={content_detail.main_image}
-                                    description={content_detail.short_description}
-                                />
+                                <Fade>
+                                    <Content_Item 
+                                        index={index}
+                                        date={content_detail.date} 
+                                        title={content_detail.title} 
+                                        category={content_detail.category}
+                                        thumbnail={content_detail.thumbnail}
+                                        image={content_detail.main_image}
+                                        description={content_detail.short_description}
+                                    />
+                                </Fade>
                             )
-                        })}
+                        }
+                        else {
+                            return null;
+                        }
+                    })}
                 </div> 
             </div>
         )

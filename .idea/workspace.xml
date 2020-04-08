@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e063a2-f51f-46ae-ba1e-e41d621249d0" name="Default Changelist" comment="Commit changes from gh-pages branch to master. Need to clean up.">
-      <change afterPath="$PROJECT_DIR$/src/content/LocationBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/MapBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/places.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/Panels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/Panels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/ProjectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/ProjectPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/ProjectTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/ProjectTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/content_dictionary.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content_dictionary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/header/nav/BarNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/header/nav/BarNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/MapPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/MapPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16650">
+            <state relative-caret-position="17070">
               <caret line="1138" column="21" selection-start-line="1138" selection-start-column="21" selection-end-line="1138" selection-end-column="21" />
             </state>
           </provider>
@@ -109,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/content/Panels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2685">
+            <state relative-caret-position="2670">
               <caret line="188" column="44" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
             </state>
           </provider>
@@ -128,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/about/AboutPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1050">
-              <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
+              <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -180,7 +164,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/landing" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -228,22 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,9 +254,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -379,6 +364,7 @@
       <workItem from="1571302500390" duration="1553000" />
       <workItem from="1574055595337" duration="254000" />
       <workItem from="1586300886846" duration="12000" />
+      <workItem from="1586379666717" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="Commit changes from gh-pages branch to master. Need to clean up.">
       <created>1565504321421</created>
@@ -391,13 +377,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86108000" />
+    <option name="totallyTimeSpent" value="87392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28016937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28016937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -554,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16650">
+        <state relative-caret-position="17070">
           <caret line="1138" column="21" selection-start-line="1138" selection-start-column="21" selection-end-line="1138" selection-end-column="21" />
         </state>
       </provider>
@@ -598,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/content/Panels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
+        <state relative-caret-position="2670">
           <caret line="188" column="44" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
         </state>
       </provider>
@@ -613,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/about/AboutPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
+          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

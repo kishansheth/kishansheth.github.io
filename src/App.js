@@ -29,6 +29,7 @@ export default class App extends React.Component {
           <Route path="/" component={Index} exact />
           <Route path="/gallery" component={Gallery} />
           <Route path="/about" component={About} />
+          <Route path="/map" component={Map}/>
           <Route path="/projects/:id" component={ProjectRouter}/>
         </div>
       </HashRouter>
@@ -42,7 +43,7 @@ class Index extends React.Component {
 		return (
 			<div>
 				<Nav />
-				<TickerDiv />
+				<Carousel />
 				<Content />
 				<Links />
 				<Footer />
@@ -60,6 +61,17 @@ class About extends React.Component {
   		</div>
 		)
 	}
+}
+
+class Map extends React.Component {
+    render() {
+        return (
+            <div>
+                <Nav/>
+                <MapPage/>
+            </div>
+        )
+    }
 }
 
 class ProjectRouter extends React.Component {

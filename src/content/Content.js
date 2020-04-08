@@ -10,18 +10,20 @@ import Fade from 'react-reveal/Fade';
 
 function orderDict(unordered) {
     var ordered = {};
+
+    console.log("Unordered: ", unordered);
   
     // Convert JSON dict to array of objects
     var project_objects = Object.keys(unordered).map(function(key) {
         return [key, Content_Dictionary[key].date];
     });
-    console.log(project_objects);
+    console.log("Unordered objects: ", project_objects);
     
     // Sort the array based on the second element
     project_objects.sort(function(first, second) {
-        return new Date(second[1]) - new Date(first[1]);
+        return (new Date(second[1]) > new Date(first[1])) ? 1 : (new Date(second[1]) < new Date(first[1])) ? -1 : 0
     });
-    console.log("project_object: ", project_objects);
+    console.log("Ordered project objects: ", project_objects);
   
     // Create new array with ordered objects
     var i;

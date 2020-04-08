@@ -8,6 +8,7 @@ import Content_Dictionary from './content_dictionary.json';
 import Fade from 'react-reveal/Fade';
 import Tabs from '../frame/tabs/Tabs';
 import Content from "./Content";
+import Select from 'react-select';
 
 var ordered_projects = []
 
@@ -22,7 +23,7 @@ function orderDict(unordered) {
     
     // Sort the array based on the second element
     project_objects.sort(function(first, second) {
-        return new Date(second[1]) - new Date(first[1]);
+        return (new Date(second[1]) > new Date(first[1])) ? 1 : (new Date(second[1]) < new Date(first[1])) ? -1 : 0
     });
     console.log("project_object: ", project_objects);
 
@@ -92,58 +93,113 @@ class Tab_Content extends React.Component {
 }
 
 export default class Panels extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            dropdownTab: "ui / ux",
+        }
+    }
+
+    onChange(values) {
+        console.log("Values: ", values.value)
+        this.setState({
+            dropdownTab: values.value
+        })
+        console.log("state: ", this.state)
+    }
+
     componentDidMount() {
         window.scrollTo(0, 0)
       }
     
     render () {
+        const options = [
+            { label: "product", value: "ui / ux" },
+            { label: "experimental", value: "art / experimental"},
+            {
+              label: "promotional",
+              options: [
+                { label: "branding", value: "branding" },
+                { label: "posters", value: "posters" },
+                { label: "shirts", value: "shirts" },
+              ]
+            },
+            {
+                label: "photo",
+                options: [
+                  { label: "cities", value: "cities" },
+                  { label: "events", value: "events" },
+                  { label: "nature", value: "nature" },
+                ]
+            }
+        ];
+
         return (
             <div>
                 <div className="projectGap"/>
                 <Fade>
-                    <Tabs>
-                        <div label="art / experimental">
-                            <Tab_Content category="art / experimental"/>
+                    <MediaQuery maxWidth={599}>
+                        <Select
+                            className={"category-select"}
+                            classNamePrefix={"category-select"}
+                            isSearchable={false}
+                            options={options}
+                            placeholder={this.state.dropdownTab}
+                            onChange={(value) => this.onChange(value)}
+                        />
+
+                        <div>
+                            <Tab_Content category={this.state.dropdownTab}/>
                         </div>
-                        <div label="ui / ux">
-                            <Tab_Content category="ui / ux"/>
-                        </div>
-                        <div label="promotional">
-                            <Tabs>
-                                <div label="branding">
-                                    <Tab_Content category="branding"/>
-                                </div>
-                                <div label="posters">
-                                    <Tab_Content category="posters"/>
-                                </div>
-                                <div label="shirts">
-                                    <Tab_Content category="shirts"/>
-                                </div>
-                            </Tabs>
-                        </div>
-                        <div label="photo">
-                            <Tabs>
-                                <div label="cities">
-                                    <Tab_Content category="cities"/>
-                                </div>
-                                <div label="events">
-                                    <Tab_Content category="events"/>
-                                </div>
-                                <div label="nature">
-                                    <Tab_Content category="nature"/>
-                                </div>
-                                <div label="experimental">
-                                    <Tab_Content category="experimental"/>
-                                </div>
-                                <div label="people">
-                                    <Tab_Content category="people"/>
-                                </div>
-                            </Tabs>
-                        </div>
-                        <div label="video">
-                            <Tab_Content category="video"/>
-                        </div>
-                    </Tabs>
+
+                    </MediaQuery>
+
+                    <MediaQuery minWidth={599}>
+                        <Tabs>
+                            <div label="products">
+                                <Tab_Content category="ui / ux"/>
+                            </div>
+                            <div label="art / experimental">
+                                <Tab_Content category="art / experimental"/>
+                            </div>
+                            <div label="promotional">
+                                <Tabs>
+                                    <div label="branding">
+                                        <Tab_Content category="branding"/>
+                                    </div>
+                                    <div label="posters">
+                                        <Tab_Content category="posters"/>
+                                    </div>
+                                    <div label="shirts">
+                                        <Tab_Content category="shirts"/>
+                                    </div>
+                                </Tabs>
+                            </div>
+                            <div label="photo">
+                                <Tabs>
+                                    <div label="cities">
+                                        <Tab_Content category="cities"/>
+                                    </div>
+                                    <div label="events">
+                                        <Tab_Content category="events"/>
+                                    </div>
+                                    <div label="nature">
+                                        <Tab_Content category="nature"/>
+                                    </div>
+                                    <div label="experimental">
+                                        <Tab_Content category="experimental"/>
+                                    </div>
+                                    <div label="people">
+                                        <Tab_Content category="people"/>
+                                    </div>
+                                </Tabs>
+                            </div>
+                            {/*<div label="video">*/}
+                            {/*    <Tab_Content category="video"/>*/}
+                            {/*</div>*/}
+                        </Tabs>
+                    </MediaQuery>
+
                 </Fade>
                 
             </div>

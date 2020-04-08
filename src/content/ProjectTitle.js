@@ -18,6 +18,10 @@ import ca from '../styles/buttons/icons/ca.png';
 import ht from '../styles/buttons/icons/ht.png';
 import cs from '../styles/buttons/icons/cs.png';
 import py from '../styles/buttons/icons/py.png';
+import fi from '../styles/buttons/icons/fi.png';
+import d3 from '../styles/buttons/icons/d3.png';
+import js from '../styles/buttons/icons/js.png';
+import ja from '../styles/buttons/icons/ja.png';
 
 var colorDiv = {}
 
@@ -27,14 +31,18 @@ var icons = {
     "ca": ca,
     "cs": cs,
     "dr": dr,
+    "d3": d3,
+    "fi": fi,
     "ht": ht,
+    "ja": ja,
+    "js": js,
     "lr": lr,
     "pp": pp,
     "ps": ps,
     "pr": pr,
     "py": py,
     "xd": xd
-}
+};
 
 export default class ProjectTitle extends React.Component {
     constructor(props) {

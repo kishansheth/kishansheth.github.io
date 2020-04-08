@@ -26,7 +26,8 @@ function orderDict(unordered) {
   
   // Sort the array based on the second element
   project_objects.sort(function(first, second) {
-      return new Date(second[1]) - new Date(first[1]);
+      // return (new Date(second[1]) > new Date(first[1])) ? 1 : (new Date(second[1]) < new Date(first[1])) ? -1 : 0
+      return (new Date(second[1]) > new Date(first[1])) ? 1 : (new Date(second[1]) < new Date(first[1])) ? -1 : 0
   });
   console.log("project_object: ", project_objects);
 
@@ -48,7 +49,9 @@ class Project_Item extends React.Component {
   render() {
     return (
       <div className="projectItem">
-        <img src={this.props.image} className="projectItemPhoto"/>
+          {this.props.image.includes('.mp4') ?
+              <video width="800px" height="auto" preload="none" autoplay="autoplay" loop="loop">
+                  <source src={this.props.image} type="video/mp4"/></video> : <img src={this.props.image} className="projectItemPhoto"/>}
         <div className="projectItemSubtitle">{this.props.subtitle}</div>
       </div>
     )

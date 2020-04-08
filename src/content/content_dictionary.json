@@ -106,7 +106,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "1" : {
     "title" : "Glass",
@@ -199,7 +201,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/photo/prisms/prisms1.png"
   },
   "2" : {
     "title" : "Cincinnati",
@@ -292,7 +296,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "3" : {
     "title" : "Spectator Mobile App",
@@ -342,7 +348,9 @@
     "link" : {
       "name" : "the App Store",
       "url" : "https://itunes.apple.com/us/app/columbia-daily-spectator/id1238427807?mt=8"
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "4" : {
     "title" : "Urbs Antiqua",
@@ -362,7 +370,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "5" : {
     "title" : "Loud",
@@ -382,7 +392,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "6" : {
     "title" : "Censored",
@@ -402,7 +414,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "7" : {
     "title" : "Eclipse 2017",
@@ -427,7 +441,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "8" : {
     "title" : "Math",
@@ -448,7 +464,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "9" : {
     "title" : "De Docta Ignorantia",
@@ -474,7 +492,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "10" : {
     "title" : "21st Century Chain Gang",
@@ -495,7 +515,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "11" : {
     "title" : "Big Brother",
@@ -516,7 +538,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "12" : {
     "title" : "RxPredict Mobile App",
@@ -555,7 +579,9 @@
     "link" : {
       "name" : "Adobe XD",
       "url" : "https://xd.adobe.com/view/dbd3176c-dea3-46ce-bc6b-e7bebbd7ac18/"
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "13" : {
     "title" : "Kanine",
@@ -584,7 +610,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "14" : {
     "title" : "Epifya",
@@ -619,7 +647,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "15" : {
     "title" : "Chipotle Prom Fundraiser",
@@ -640,7 +670,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "16" : {
     "title" : "Mixtape Madness",
@@ -660,7 +692,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "17" : {
     "title" : "Prom 2015",
@@ -680,7 +714,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "18" : {
     "title" : "INTERalliance by the Numbers",
@@ -700,7 +736,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "19" : {
     "title" : "Grandchat Web App",
@@ -748,7 +786,9 @@
     "link" : {
       "name" : "GitHub",
       "url" : "https://github.com/kishansheth/grandchat"
-    }
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/ui_ux/grandchat/grandchat5.svg"
   },
   "20" : {
     "title" : "Coastal Reef Apparel",
@@ -781,7 +821,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "21" : {
     "title" : "ELS Vancouver",
@@ -801,7 +843,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "22" : {
     "title" : "Powderpuff",
@@ -821,7 +865,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "23" : {
     "title" : "Global Leadership Summit",
@@ -846,7 +892,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "24" : {
     "title" : "Student Government",
@@ -866,7 +914,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "25" : {
     "title" : "Rapid Response",
@@ -900,7 +950,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "26" : {
     "title" : "PV Snapchat Filter",
@@ -920,7 +972,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "27" : {
     "title" : "IH Snapchat Filter",
@@ -940,7 +994,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "28" : {
     "title" : "Shadowed Reputation",
@@ -960,7 +1016,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "29" : {
     "title" : "Eudaimonia",
@@ -980,7 +1038,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "30" : {
     "title" : "Devotion",
@@ -1000,7 +1060,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : "/images/art_experimental/religion.png"
   },
   "31" : {
     "title" : "Intrusive",
@@ -1020,7 +1082,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "32" : {
     "title" : "New School",
@@ -1041,7 +1105,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "33" : {
     "title" : "Burdened",
@@ -1061,7 +1127,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "34" : {
     "title" : "life();",
@@ -1082,10 +1150,12 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : ""
   },
   "35" : {
-    "title" : "Mantis Shrimp",
+    "title" : "RGB or CMYK?",
     "date" : "April, 2017",
     "category" : "art / experimental",
     "subcategory" : "",
@@ -1108,7 +1178,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/art_experimental/mantis_shrimp.png"
   },
   "36" : {
     "title" : "Bay Area",
@@ -1169,6 +1241,42 @@
       {
         "image" : "/images/photo/city/bay_area/bay_area13.jpg",
         "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area14.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area15.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area16.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area17.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area18.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area19.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area20.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area21.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/photo/city/bay_area/bay_area22.jpg",
+        "subtitle" : ""
       }
     ],
     "tools" : [
@@ -1177,7 +1285,9 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : false,
+    "slideshow_image" : "/images/photo/city/bay_area/bay_area16.jpg"
   },
   "37" : {
     "title" : "New York",
@@ -1358,6 +1468,154 @@
     "link" : {
       "name" : "",
       "url" : ""
-    }
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/photo/city/new_york/new_york18.jpg"
+  },
+  "38" : {
+    "title" : "Evolution of Terrorism",
+    "date" : "May, 2019",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "An visual exploration of the terrorism landscape from 1970 to 2017.",
+    "long_description" : "A project created in COMS 4995, Introduction to Data Visualization, with partners Shuai Hao, Bhaskar Ghosh, and Hussain Vahanvaty. We gathered data from University of Maryland's Global Terrorism Database, analyzed it with Pandas, and created a visualization using D3, raw HTML and CSS, and The Pudding's Scrollama.js library.  ",
+    "thumbnail" : "/images/ui_ux/terrorism/terrorism.png",
+    "main_image" : "/images/ui_ux/terrorism/terrorism.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/terrorism/terrorism1.png",
+        "subtitle" : "Number of Attacks Per Country (by Decade)"
+      },
+      {
+        "image" : "/images/ui_ux/terrorism/terrorism2.png",
+        "subtitle" : "50 Deadliest Terrorist Attacks by Region Since 1970"
+      }
+    ],
+    "tools" : [
+      "d3",
+      "ai",
+      "ht",
+      "cs",
+      "py"
+    ],
+    "link" : {
+      "name" : "the Web",
+      "url" : "https://kishansheth.github.io/evolution-of-terrorism/"
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/ui_ux/terrorism/terrorism.png"
+  },
+  "39" : {
+    "title" : "PowerMarket Marketplace",
+    "date" : "July, 2019",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "Redesign of community solar marketplace for PowerMarket, a Brooklyn-based cleantech startup.",
+    "long_description" : "PowerMarket is a Brooklyn-based cleantech startup that connects homeowners and businesses to clean, locally produced energy sources. PowerMarket also provides software to help clean energy developers manage their customers. I joined PowerMarket as a front-end software developer in May 2020 and have worked on a) redesigning and redeveloping the project marketplace and marketplace assistant, b) researching and displaying “eco-impact” to help customers and developers understand their reduced carbon footprint, and c) Rethinking the landing page and surrounding promotional pages (in-progress).",
+    "thumbnail" : "/images/ui_ux/powermarket/powermarket.png",
+    "main_image" : "/images/ui_ux/powermarket/powermarket1.png",
+    "main_image_small" : "",
+    "main_subtitle" : "",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/powermarket/powermarket2.png",
+        "subtitle" : "Relatable carbon emission metrics to make the benefit of clean energy more tangible."
+      },
+      {
+        "image" : "/images/ui_ux/powermarket/powermarket4.mp4",
+        "subtitle" : "Design and full-stack development for marketplace signup assistant."
+      }
+    ],
+    "tools" : [
+      "fi",
+      "ht",
+      "cs",
+      "js",
+      "ja"
+    ],
+    "link" : {
+      "name" : "the Web",
+      "url" : "https://powermarket.io/marketplace.html"
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/ui_ux/powermarket/powermarket.png"
+  },
+  "40" : {
+    "title" : "Rotera Sustainable Packaging",
+    "date" : "April, 2019",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "A packaging and vending solution that eliminates plastic waste from personal care products.",
+    "long_description" : "Rotera is a packaging and vending solution that eliminates plastic waste from personal care products. With Rotera's system, customers can replenish their shampoo, conditioner, body wash, or lotion supply using Rotera's durable silicone bottles and in-store dispensers. This system also aims to lower refill costs for both the consumer and distributor by removing the cost of plastic packaging and maximizing space efficiency along the supply chain. Created for Human Centered Design, taught by Harry West and Turi McKinley from Frog Design, with partners Angel Njoku and Naomi Dwork. ",
+    "thumbnail" : "/images/ui_ux/rotera/rotera.png",
+    "main_image" : "/images/ui_ux/rotera/rotera_main.jpg",
+    "main_image_small" : "",
+    "main_subtitle" : "Rotera's three-part system – reusable bottle, product dispenser, and app",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/rotera/rotera1.jpg",
+        "subtitle" : "Reusable, flexible, silicone bottle prototype"
+      },
+      {
+        "image" : "/images/ui_ux/rotera/rotera3.jpg",
+        "subtitle" : "App for locating Rotera dispensers and tracking rewards"
+      },
+      {
+        "image" : "/images/ui_ux/rotera/rotera4.jpg",
+        "subtitle" : ""
+      },
+      {
+        "image" : "/images/ui_ux/rotera/rotera5.png",
+        "subtitle" : "UX mapping for in-store dispenser screen"
+      },
+      {
+        "image" : "/images/ui_ux/rotera/rotera6.jpg",
+        "subtitle" : ""
+      }
+    ],
+    "tools" : [
+      "fi",
+      "ai",
+      "ps",
+      "ca"
+    ],
+    "link" : {
+      "name" : "",
+      "url" : ""
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/ui_ux/rotera/rotera_slideshow.png"
+  },
+  "41" : {
+    "title" : "Laughing OnLine",
+    "date" : "October, 2019",
+    "category" : "ui / ux",
+    "subcategory" : "",
+    "short_description" : "A data-driven exploration of how people laugh online, written and developed in conjunction with The Pudding.",
+    "long_description" : "Laughing OnLine is a data-driven exploration of how people laugh online, written and developed in conjunction with The Pudding. In the three parts of the article, we explore how the Internet laughs today, the evolution of the digital laugh, and the perception of various forms of digital laughter. ",
+    "thumbnail" : "/images/ui_ux/laughter/laughter-thumbnail.png",
+    "main_image" : "/images/ui_ux/laughter/laughter-main.png",
+    "main_image_small" : "",
+    "main_subtitle" : "Rotera's three-part system – reusable bottle, product dispenser, and app",
+    "other_images" : [
+      {
+        "image" : "/images/ui_ux/laughter/laughter.mp4",
+        "subtitle" : "Interactive segment where readers can rank how hard they actually laugh based on what they type"
+      }
+    ],
+    "tools" : [
+      "fi",
+      "ai",
+      "js",
+      "d3"
+    ],
+    "link" : {
+      "name" : "The Pudding's site",
+      "url" : "https://pudding.cool/2019/10/laugh/"
+    },
+    "slideshow_include" : true,
+    "slideshow_image" : "/images/ui_ux/laughter/laughter-thumbnail.png"
   }
 }

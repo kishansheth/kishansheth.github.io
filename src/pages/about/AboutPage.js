@@ -48,10 +48,11 @@ export default class AboutPage extends React.Component {
 
     componentDidMount() {
 
-        fetch('/hello').then(res => res.json()).then(data => {
+        fetch('/metadata').then(res => res.json()).then(data => {
+            console.log(data);
             this.setState({
                 isLoaded: true,
-                items: data.res
+                items: data.aperture
             })
         });
 

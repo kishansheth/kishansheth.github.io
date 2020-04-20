@@ -212,6 +212,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,22 +265,6 @@
               <item name="frame" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
               <item name="nav" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="react-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Pictures/Design/Sites/Personal/Gatsby/react-site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -365,6 +365,8 @@
       <workItem from="1574055595337" duration="254000" />
       <workItem from="1586300886846" duration="12000" />
       <workItem from="1586379666717" duration="1284000" />
+      <workItem from="1586387554187" duration="897000" />
+      <workItem from="1586743792296" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Commit changes from gh-pages branch to master. Need to clean up.">
       <created>1565504321421</created>
@@ -377,12 +379,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87392000" />
+    <option name="totallyTimeSpent" value="88296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28016937" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28016937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />

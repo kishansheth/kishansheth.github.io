@@ -2,57 +2,34 @@ import React from 'react';
 import '../../styles/styles.css';
 import AboutCard from './AboutCard';
 import Fade from 'react-reveal/Fade';
-import ps from '../../styles/buttons/icons/ps.png';
-import ai from '../../styles/buttons/icons/ai.png';
-import pp from '../../styles/buttons/icons/pp.png';
-import dr from '../../styles/buttons/icons/dr.png';
-import d3 from '../../styles/buttons/icons/d3.png';
-import lr from '../../styles/buttons/icons/lr.png';
-import ae from '../../styles/buttons/icons/ae.png';
-import pr from '../../styles/buttons/icons/pr.png';
-import xd from '../../styles/buttons/icons/xd.png';
-import ca from '../../styles/buttons/icons/ca.png';
-import ht from '../../styles/buttons/icons/ht.png';
-import cs from '../../styles/buttons/icons/cs.png';
-import py from '../../styles/buttons/icons/py.png';
-import ja from '../../styles/buttons/icons/ja.png';
-import js from '../../styles/buttons/icons/js.png';
-import un from '../../styles/buttons/icons/un.png';
-import cp from '../../styles/buttons/icons/cp.png';
-import fi from '../../styles/buttons/icons/fi.png';
-import HongKong from '../../images/HongKong.png';
-import Cloud from '../../images/Cloud.jpg';
 import Circles from '../../images/Circles.jpg';
-import Profile from '../../images/SiteProfile.jpg';
 import Triangles from '../../images/abstract/triangles.svg';
 import Quads from '../../images/abstract/quads.svg';
 import Orbit1 from '../../images/abstract/orbit1.svg';
 import Orbit2 from '../../images/abstract/orbit2.svg';
 import {Link} from "react-router-dom";
+import SkillBox from '../../content/SkillBox';
 
 var cs_courses = ["Intro to CS in Java", "Data Structures in Java", "Advanced Programming in C/C++", "Fundamentals of Computer Systems", "CS Theory", "Advanced Web Design Studio", "Artificial Intelligence", "Natural Language Processing", "Data Visualization", "Computation and the Brain", "Programming Languages"];
 var math_courses = ["Linear Algebra", "Calculus III (Multivariable)", "Discrete Mathematics"];
-var very_familiar_with = [ja, cp, js, ht, cs, ai, ps, xd, pp, fi];
-var familiar_with = [py, lr, ae, pr, un, d3];
 
-var hello = "HEY";
 
 export default class AboutPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoaded: false,
-            items: ""
+            tools: []
         }
     }
 
     componentDidMount() {
 
-        fetch('/metadata').then(res => res.json()).then(data => {
+        fetch('/getTools').then(res => res.json()).then(data => {
             console.log(data);
             this.setState({
                 isLoaded: true,
-                items: data.aperture
+                tools: data
             })
         });
 
@@ -103,16 +80,16 @@ export default class AboutPage extends React.Component {
                                 </div>
                                 <div className="about_card">
                                     <div className="about_card_title">Technical Skills</div>
-                                    <div className="about_card_subtitle">
-                                        <div className="about_card_item">Very familiar with:</div>
-                                        {very_familiar_with.map((tool) =>
-                                            <img className="about_tool_icon" src={tool}/>
+                                    <table>
+                                        {this.state.tools.map((tool) =>
+                                            <SkillBox
+                                                title={tool.title}
+                                                skill={tool.skill}
+                                                icon={tool.icon}
+                                            />
                                         )}
-                                        <div className="about_card_item">Familiar with:</div>
-                                        {familiar_with.map((tool) =>
-                                            <img className="about_tool_icon" src={tool}/>
-                                        )}
-                                    </div>
+                                    </table>
+                                    
                                     
                                 </div>
                                 <div className="about_card">

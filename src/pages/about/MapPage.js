@@ -9,6 +9,9 @@ export default class MapPage extends React.Component {
         super(props);
 
         this.state = {
+            favLocations: [],
+            wantLocations: [],
+            isLoaded: false,
             activeLocation: 0,
             isDesktop: window.innerWidth > 991
         };
@@ -19,6 +22,23 @@ export default class MapPage extends React.Component {
 
     componentDidMount() {
         window.addEventListener("resize", this.updateDimensions);
+
+        // fetch locations from server
+        fetch('/getFavLocations').then(res => res.json()).then(data => {
+            console.log(data);
+            this.setState({
+                isLoaded: true,
+                favLocations: data
+            })
+        });
+
+        // fetch locations
+        fetch('/getWantLocations').then(res => res.json()).then(data => {
+            console.log(data);
+            this.setState({
+                wantLocations: data
+            })
+        });
     }
 
     componentWillUnmount() {
@@ -33,44 +53,48 @@ export default class MapPage extends React.Component {
 
 
     handleClick(i) {
-        this.setState(
-            {
-                activeLocation: i,
-            }
-        );
+        this.setState({
+            activeLocation: i,
+        });
     }
 
     render() {
-        console.log("desktop: " + this.state.isDesktop);
 
-        return(
-            <div className="full-page">
-                {/*<div className="map-title">My Favorite Places in the World</div>*/}
-                <div className="mapPage-container">
-                    <div className="map-container">
-                        <div className="map-page-title">Some Places I Like.</div>
-                        <MapBox
-                            activeLocation={{
-                                lat: parseFloat(Places[this.state.activeLocation].lat),
-                                lng: parseFloat(Places[this.state.activeLocation].lng)
-                            }}
-                            activateLocation={this.handleClick}
-                            activeLocationIndex={this.state.activeLocation}
-                            isDesktop={this.state.isDesktop}
-                        />
-                    </div>
-                    <div className="locations-container">
-                        {Places.map((place, i) =>
-                            <LocationBox
-                                onClick={() => this.handleClick(i)}
-                                i={i}
-                                place={place}
-                                active={i == this.state.activeLocation}
+        if (this.state.isLoaded) {
+            return(
+                <div className="full-page">
+                    <div className="mapPage-container">
+                        <div className="map-container">
+                            <div className="map-page-title">Some Places I Like.</div>
+                            <MapBox
+                                favLocations={this.state.favLocations}
+                                wantLocations={this.state.wantLocations}
+                                activeLocation={{
+                                    lat: parseFloat(this.state.favLocations[this.state.activeLocation].lat),
+                                    lng: parseFloat(this.state.favLocations[this.state.activeLocation].lng)
+                                }}
+                                activateLocation={this.handleClick}
+                                activeLocationIndex={this.state.activeLocation}
+                                isDesktop={this.state.isDesktop}
                             />
-                        )}
+                        </div>
+                        <div className="locations-container">
+                            {this.state.favLocations.map((place, i) =>
+                                <LocationBox
+                                    onClick={() => this.handleClick(i)}
+                                    i={i}
+                                    place={place}
+                                    active={i == this.state.activeLocation}
+                                />
+                            )}
+                        </div>
                     </div>
                 </div>
-            </div>
-        )
+            )
+        } else {
+            return null;
+        }
+
+        
     }
 }

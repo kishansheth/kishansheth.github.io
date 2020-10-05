@@ -11,7 +11,7 @@ class MarkerDetail extends React.Component {
     render() {
         return(
             <div className="marker-detail">
-                {this.props.place.name}
+                {this.props.place.title}
             </div>
         )
     }
@@ -43,6 +43,7 @@ class Marker extends React.Component {
     }
 
     activateMarker() {
+        console.log(this.props.i);
         this.props.activateLocation(this.props.i);
     }
 
@@ -56,6 +57,10 @@ class Marker extends React.Component {
 }
 
 class SimpleMap extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
 
     static defaultProps = {
         center: {
@@ -238,7 +243,6 @@ class SimpleMap extends React.Component {
     };
 
     render() {
-        console.log(this.props.activeLocation);
         var mapHeight = this.props.isDesktop ? '100vh' : '60vh';
 
         return (
@@ -251,7 +255,7 @@ class SimpleMap extends React.Component {
                     defaultZoom={this.props.zoom}
                     options={SimpleMap.mapOptions}
                 >
-                    {Places.map((place, i)=>
+                    {this.props.favLocations.map((place, i)=>
                         <Marker
                             i={i}
                             lat={place.lat}

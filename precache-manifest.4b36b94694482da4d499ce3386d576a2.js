@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/RobotoMono-Light.b82d827b.ttf"
   },
   {
+    "revision": "5a45b286f59824f5d3b2d761871ced29",
+    "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
+  },
+  {
     "revision": "69ab2827629b34838e37374360bc8d40",
     "url": "/static/media/white_instagram.69ab2827.svg"
   },
   {
     "revision": "65014891e2e9e71a3fb77e09bb865d90",
     "url": "/static/media/white_vsco.65014891.svg"
-  },
-  {
-    "revision": "5a45b286f59824f5d3b2d761871ced29",
-    "url": "/static/media/RobotoMono-Medium.5a45b286.ttf"
   },
   {
     "revision": "cd6a82fd5f8339a8a953f9b98317ad3e",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/static/media/black_vsco.db52d8d2.svg"
   },
   {
-    "revision": "142301adf4e0699237f9e11a77761d0d",
-    "url": "/static/media/ArialBold.142301ad.ttf"
-  },
-  {
     "revision": "025fd5690db6b6bb870d6868cbf00a13",
     "url": "/static/media/black_linkedin.025fd569.svg"
   },
   {
     "revision": "74efb98fbb84adee8c3bad29e0b9ea2b",
     "url": "/static/media/black_github.74efb98f.svg"
+  },
+  {
+    "revision": "142301adf4e0699237f9e11a77761d0d",
+    "url": "/static/media/ArialBold.142301ad.ttf"
   },
   {
     "revision": "e9a89728cd14d8b05dc58166898fa92b",
